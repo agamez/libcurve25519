@@ -1,0 +1,4 @@
+libcurve25519.so.1.0.0 usr/lib
+libcurve25519.so.1.0 usr/lib
+libcurve25519.so.1 usr/lib
+libcurve25519.so usr/lib

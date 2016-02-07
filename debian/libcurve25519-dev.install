@@ -1,0 +1,2 @@
+src/curve.h usr/include/libcurve25519
+src/curve_global.h usr/include/libcurve25519

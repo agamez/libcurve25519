@@ -1,0 +1,14 @@
+Source: libcurve25519
+Priority: extra
+Section: libs
+Maintainer: Alvaro G. M. <alvaro.gamez@hazent.com>
+
+Package: libcurve25519
+Architecture: any
+Description: libcurve25519 is a ciphering library with qt bindings
+  libcurve25519 is a ciphering library with qt bindings
+
+Package: libcurve25519-dev
+Architecture: any
+Description: libcurve25519 development files
+  libcurve25519 is a ciphering library with qt bindings
