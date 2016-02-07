@@ -17,14 +17,10 @@ CONFIG += dll
 
 DEFINES += LIBCURVE25519_LIBRARY
 
-SOURCES += curve.cpp
-
-HEADERS += curve.h \
-    curve_global.h
-
 QMAKE_CFLAGS += -std=c99
 
 SOURCES += \
+    src/curve.cpp \
     src/curve25519-donna.c \
     src/ed25519/fe_neg.c \
     src/ed25519/ge_p1p1_to_p2.c \
@@ -74,6 +70,8 @@ SOURCES += \
 
 
 HEADERS += \
+    src/curve.h \
+    src/curve_global.h \
     src/curve25519-donna.h \
     src/ed25519/fe.h \
     src/ed25519/pow22523.h \

@@ -4,8 +4,8 @@
 #include "curve.h"
 
 extern "C" {
-#include "src/curve25519-donna.h"
-#include "src/ed25519/additions/curve_sigs.h"
+#include "curve25519-donna.h"
+#include "ed25519/additions/curve_sigs.h"
 }
 
 Curve25519::Curve25519()
